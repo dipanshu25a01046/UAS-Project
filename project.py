@@ -1,3 +1,4 @@
+import math
 import cv2 as cv
 import numpy as np
 
@@ -64,4 +65,5 @@ for i in range(1, 11):
             if casualty >= 0:
                 data.append(((cx, cy), casualty, color_name))
     
-    print(f"Image {i}: {data}")
+
+    #formula for calculating priority score=casualty*emergency/pow(distance,0.5)
