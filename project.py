@@ -66,4 +66,4 @@ for i in range(1, 11):
                 data.append(((cx, cy), casualty, color_name))
     
 
-    #formula for calculating priority score=casualty*emergency/pow(distance,0.5)
+    #formula for calculating priority score=casualty*emergency/pow(distance,1.5)
